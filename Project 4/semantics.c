@@ -1,5 +1,5 @@
 /**
-*Phoebe Hughes and Jenny Lin (SQL) and Anh Uong (Ruby)
+*Phoebe Hughes and Jenny Lin
 *CS333
 *Project 4
 *semantics.c
