@@ -1,0 +1,6 @@
+1	Cow	brown	3
+2	Dog	white	7
+3	Pig	pink	2
+4	Goat	grey	1
+5	Horse	black	8
+6	Rabbit	white	ten
