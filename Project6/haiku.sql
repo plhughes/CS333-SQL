@@ -1,6 +1,6 @@
 /*
- * File: functions.sql
- * Displays how to write to and get data from a file
+ * File: haiku.sql
+ * Displays how to create dynamic function
  * Author: Jenny Lin & Phoebe Hughes
  * Date: 11/09/2015
  */
