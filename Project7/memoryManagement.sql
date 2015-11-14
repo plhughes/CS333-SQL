@@ -5,15 +5,15 @@
  * Date: 11/16/2015
  */
 
- /*Deallocating Memory*/
- DROP DATABASE IF EXISTS project_seven;
- DROP TABLE IF EXISTS animals;
- DROP FUNCTION IF EXISTS num_animals;
+/*Deallocating Memory*/
+DROP DATABASE IF EXISTS project_seven;
+DROP TABLE IF EXISTS animals;
+DROP FUNCTION IF EXISTS num_animals;
 
 /*Allocating Memory*/
 /* Creating database */
 CREATE DATABASE project_seven;
-USE project_six;
+USE project_seven;
 
 /*Creating base table*/
 CREATE TABLE animals(
@@ -24,7 +24,7 @@ CREATE TABLE animals(
 
 DELIMITER $$
 
-/* Returns the number of animals*/
+/* Creates function that returns the number of animals*/
 CREATE FUNCTION num_animals()
     RETURNS INT
     BEGIN
@@ -35,9 +35,12 @@ END $$
 
 DELIMITER ;
 
+/*Creates rows in table*/
 INSERT INTO animals (animal) VALUES ("Cow");
 INSERT INTO animals (animal) VALUES ("Dog");
-
+ 
+ 
+/*Creates variable*/
 SET @a = "allocating memory";
 
 /*Printing databases, tables, and rows created*/
