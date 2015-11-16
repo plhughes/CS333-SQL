@@ -15,7 +15,7 @@ DROP FUNCTION IF EXISTS num_animals;
 CREATE DATABASE project_seven;
 USE project_seven;
 
-/*Creating base table*/
+/*Creating table*/
 CREATE TABLE animals(
     id INT NOT NULL AUTO_INCREMENT,
     animal VARCHAR(20),
